@@ -39,4 +39,16 @@ x.each_with_index do |value, index|
   puts "#{index}: #{value}"
 end
 
+# 4. Write a method that counts down to zero using recurision.
+
+puts "Enter a number to begin the count."
+input = gets.chomp.to_i
+counter = input
+while counter >= 0
+  puts counter
+  counter = input -= 1
+end
+
+
+
 
