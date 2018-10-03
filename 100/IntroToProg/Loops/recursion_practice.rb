@@ -14,4 +14,12 @@ def doubler(start)
   end
 end
 
-puts doubler(2)
+
+def countDown(start)
+  puts start
+  if start > 0
+    countDown(start -1)
+  end
+end
+
+countDown(15)

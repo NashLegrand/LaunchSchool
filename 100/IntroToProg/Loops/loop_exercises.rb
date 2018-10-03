@@ -11,6 +11,7 @@
 # does add one to each item, the original array is still returned because it was never
 # modified. The correct answer is [1, 2, 3, 4, 5]
 
+
 x = [1, 2, 3, 4, 5]
 x.each do |a|
   a + 1
@@ -41,14 +42,14 @@ end
 
 # 4. Write a method that counts down to zero using recurision.
 
-puts "Enter a number to begin the count."
-input = gets.chomp.to_i
-counter = input
-while counter >= 0
-  puts counter
-  counter = input -= 1
+def count_down(start)
+  puts start
+  if start > 0
+    count_down(start -1)
+  end
 end
 
 
+count_down(10)
 
 
