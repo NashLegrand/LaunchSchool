@@ -41,3 +41,32 @@ arr.flatten.each { |i| puts i if i.include?("example")}
 # I originally struggled with the .first.last method/s, but now i get it. In this example
 # arr.last.first looks for the last element in the outter array and then the first 
 # element in that inner array. The answer returns "example".
+
+
+# 4. What does each method return in the following example?
+
+arr = [15, 7, 18, 5, 12, 8, 5, 1]
+
+arr.index(5) # returns 3
+arr.index[5] # returns 8 ** I was wrong. This returns an error.
+arr[5] # returns 8
+
+# 5. What is the value of a, b, c in the following?
+
+string = "Welcome to America!"
+a = string[6] # e
+b = string[11] # A
+c = string[19]  # nil
+
+
+
+
+
+
+
+
+
+
+
+
+
