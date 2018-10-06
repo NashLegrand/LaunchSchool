@@ -32,8 +32,8 @@ puts arr
 
 # 3. How do you return the word "example" from the following array?
 
-arr = [["test", "hello", "world"], ["example", "mem"]]
-arr.flatten.each { |i| puts i if i.include?("example")}
+#arr = [["test", "hello", "world"], ["example", "mem"]]
+#arr.flatten.each { |i| puts i if i.include?("example")}
 
 # The launch school solution was arr.last.first
 # I used my code first, operating under the assumption that i would know if the 
@@ -45,11 +45,13 @@ arr.flatten.each { |i| puts i if i.include?("example")}
 
 # 4. What does each method return in the following example?
 
+=begin
 arr = [15, 7, 18, 5, 12, 8, 5, 1]
 
 arr.index(5) # returns 3
 arr.index[5] # returns 8 ** I was wrong. This returns an error.
 arr[5] # returns 8
+=end
 
 # 5. What is the value of a, b, c in the following?
 
@@ -57,6 +59,20 @@ string = "Welcome to America!"
 a = string[6] # e
 b = string[11] # A
 c = string[19]  # nil
+
+
+# 6. You have to modify the item using the array index.
+
+# 7. 
+
+array1 = [2, 3, 4, 5, 6]
+
+array2 = array1.map { |i| i + 2 }
+
+p array1
+p array2
+
+
 
 
 
