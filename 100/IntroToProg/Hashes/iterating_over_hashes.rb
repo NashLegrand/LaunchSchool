@@ -23,3 +23,4 @@ greeting("Bob", {age: 42, city: "New York City"})
 
 # You can pass in arguments to the greeting method like this
 greeting("Bob", age: 62, city: "New York City")
+
