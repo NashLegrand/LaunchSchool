@@ -122,6 +122,12 @@ x = "hi there"
 my_hash = {x: "some value"}
 my_hash2 = {x => "some value"}
 
+# The only difference appears to be that manner in which the hash was created, but once
+# I plugged this into IRB, my_hash used x as the key, but my_hash2 assigned the variable 
+# x as the key.
+
+# 8. 
+
 
 
 

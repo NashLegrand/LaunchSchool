@@ -1,14 +1,12 @@
 
 
-def stray(numbers)
-  place_holder = numbers[0]
-  numbers.each do |i|
-    if i != place_holder
-      place_holder = i
-      break
-    end
+number = 0
+
+until number == 10
+  if number.even?
+    p number
+    number += 1
+    next
   end
-  place_holder
 end
 
-puts stray([2,1,1,1,1])
