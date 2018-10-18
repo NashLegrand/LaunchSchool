@@ -181,7 +181,7 @@ p "After each call"
 
 
 ############################### EXCEPTIONS & STACK TRACES ##################################
-# An exception is synomous with an error
+# An exception is synomous with an error.
 
 
 
